@@ -1,0 +1,57 @@
+.subgroupAllCell {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  justify-content: space-between;
+  left: calc(80vw);
+
+  position: absolute;
+  right: 0px;
+  text-transform: capitalize;
+
+  top: 160px;
+
+  /* background-color: white;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  left: 1000px;
+  top: 180px; */
+}
+.subgroupCell {
+  /* background-color: white;
+  justify-content: space-between;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  color: black; */
+
+  position: static;
+  /* width: 221px;
+  left: calc(50% - 221px / 2); */
+  top: 14.29%;
+  bottom: 14.29%;
+
+  /* Subtitle & Body (Poppins)/Body 2 */
+  text-transform: capitalize;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 143%;
+  /* identical to box height, or 20px */
+
+  letter-spacing: 0.25px;
+
+  color: rgba(0, 0, 0, 0.87);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0px 0px;
+}

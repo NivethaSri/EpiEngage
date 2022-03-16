@@ -1,0 +1,59 @@
+.groupAllCell {
+  display: flex;
+  flex-direction: column;
+
+  position: absolute;
+  width: 110px;
+  top: 85px;
+  height: calc(100vh - 85px);
+  background: #040a45;
+}
+.groupSeperator {
+  position: static;
+  width: 100%;
+  height: 1px;
+  /* Grey/Grey 800 */
+
+  border: 1px solid #424242;
+  box-sizing: border-box;
+
+  /* Inside auto layout */
+}
+.groupCell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  height: calc((100vh - 70px) / 8);
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #172166;
+
+  /* Inside auto layout */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+
+  color: #aeb6f9;
+
+  /* flex: none;
+order: 4;
+flex-grow: 0;
+margin: 0px 0px; */
+
+  /* background-color: rgb(28, 57, 107);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding: 11px; */
+}

@@ -1,0 +1,84 @@
+// /* eslint-disable react-hooks/rules-of-hooks */
+// import React, { useState } from "react";
+// import Select from "react-select";
+// import "./MemberDetailsStyles.css";
+// import dictionaryFile from "./Questions";
+// import TextField from "@material-ui/core/TextField";
+
+// class DropDownTextField extends React.Component {
+//   constructor() {
+//     super();
+//     this.state = { isLoggedIn: false };
+//   }
+//   // handleLoginClick() {
+//   //   this.setState({ isLoggedIn: true });
+//   // }
+//   // handleLogoutClick() {
+//   //   this.setState({ isLoggedIn: false });
+//   // }
+//   render() {
+//     const [selectedOption, setSelectedOption] = useState(null);
+//     // eslint-disable-next-line react-hooks/rules-of-hooks
+//     const [name, setName] = useState(null);
+//     return <div></div>;
+//   }
+//   //     <div className="SubGroupParentQuestionContainer">
+//   //       <div className="SubGroupQuestionsContainer">
+//   //         {dictionaryFile.map((dictionary) =>
+//   //           dictionary.layout.groups.map(
+//   //             (group, idxgroup) =>
+//   //               group &&
+//   //               group.subgroups &&
+//   //               group.subgroups.map(
+//   //                 (subgroup, idxVSub) =>
+//   //                   subgroup &&
+//   //                   subgroup.sections &&
+//   //                   subgroup.sections.map((section, idxVSubsec) => {
+//   //                     let options = section.options.map((object) => ({
+//   //                       value: object,
+//   //                       label: object,
+//   //                     }));
+//   //                     console.log(options, "Test");
+//   //                     return (
+//   //                       <div key={idxVSubsec}>
+//   //                         <h5> {section.question}</h5>
+//   //                         <div className="RowContainer">
+//   //                           <Select
+//   //                             className="DropDownQuestionContainer"
+//   //                             defaultValue={selectedOption}
+//   //                             onChange={setSelectedOption}
+//   //                             options={options}
+//   //                             isMult={true}
+//   //                           />
+//   //                           <div className="TextFieldContainer">
+//   //                             <TextField
+//   //                               value={name}
+//   //                               label="Specify"
+//   //                               onChange={(e) => {
+//   //                                 setName(e.target.value);
+//   //                               }}
+//   //                             />
+//   //                           </div>
+//   //                         </div>
+//   //                       </div>
+//   //                     );
+//   //                   })
+//   //               )
+//   //           )
+//   //         )}
+//   //       </div>
+//   //     </div>
+//   //   );
+//   // }
+// }
+// export default DropDownTextField;
+
+import React, { Component } from "react";
+
+export class DropDownWithTextField extends Component {
+  render() {
+    return <div>DropDownWithTextField</div>;
+  }
+}
+
+export default DropDownWithTextField;

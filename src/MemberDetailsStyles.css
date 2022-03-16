@@ -1,0 +1,151 @@
+.QuestionContainer {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  top: 180px;
+  left: 150px;
+  height: 70%;
+  width: calc(68vw);
+  border-radius: 5px;
+}
+
+.MemderDetailsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  height: 86px;
+  width: calc(68vw);
+  border-radius: 5px;
+  background-color: aqua;
+  background: #656ccd;
+}
+
+.MemberInfoCOntainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: static;
+  width: 86.66px;
+  left: 0px;
+  top: -10px;
+  bottom: -10px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 8px;
+}
+
+.groupSeperatorVertical {
+  position: static;
+  width: 1px;
+  height: 80%;
+  top: 15px;
+  bottom: 15px;
+  opacity: 0.6;
+  border: 1px solid #eff3ff;
+  box-sizing: border-box;
+}
+
+.groupSeperatorHorizantal {
+  position: static;
+  width: 100%;
+  height: 1%;
+  opacity: 0.6;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+}
+.profileNameContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  width: 20%;
+}
+
+.TopQuestionContainer {
+  position: absolute;
+  width: calc(68vw);
+  height: 450px;
+  top: 86px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
+.SubGroupNameContainer {
+  position: static;
+  width: calc(68vw);
+  height: 86px;
+  font-family: Sofia Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 160%;
+  letter-spacing: 0.15px;
+  color: rgba(51, 51, 51, 0.87);
+}
+
+.SubGroupParentQuestionContainer {
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+  padding: 0px;
+  overflow-y: scroll;
+  flex-direction: row;
+  order: 1;
+  align-self: stretch;
+  margin: 0px 0px;
+}
+
+.SubGroupQuestionsContainer {
+  width: calc(68vw);
+  font-family: Sofia Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 160%;
+  letter-spacing: 0.15px;
+  color: rgba(51, 51, 51, 0.87);
+}
+
+.DropDownQuestionContainer {
+  width: 50%;
+  padding-left: 15px;
+}
+
+.TextFieldContainer {
+  padding-left: 15px;
+
+  width: 50%;
+}
+
+.RowContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: static;
+  width: 100%;
+}
+h6 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 1px;
+  line-height: 0.65em;
+  line-height: normal;
+  text-align: center;
+  color: #eff3ff;
+}
+
+h5 {
+  padding-left: 15px;
+}
